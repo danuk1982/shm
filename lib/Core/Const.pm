@@ -25,7 +25,7 @@ our @EXPORT = qw(
     TASK_NEW
     TASK_SUCCESS
     TASK_FAIL
-    TASK_DROP
+    TASK_STUCK
 );
 
 use constant {
@@ -63,7 +63,7 @@ use constant {
     TASK_NEW => 0,
     TASK_SUCCESS => 1,
     TASK_FAIL => 2,
-    TASK_DROP => 3,
+    TASK_STUCK => 3,
 };
 
 1;
