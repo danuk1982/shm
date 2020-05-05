@@ -310,4 +310,7 @@ INSERT INTO `config` VALUES
 ('shm_url','http://admin.local'),
 ('mail_from','mail@domain.ru');
 
+INSERT INTO `spool` (id,user_id,event) VALUES
+(default,1,'{"title":"prolongate services","kind":"UserService","method":"prolongate","period":"60"}');
+
 COMMIT;
